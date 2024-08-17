@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Фильмы</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    .container {
+        margin-top: 60px; /* Отступ для учета фиксированного меню */
+    }
+    .card {
+        flex: 1;
+        margin: 10px;
+        max-width: 100%; /* Ограничиваем ширину карточки */
+    }
+    .card-img-top {
+        height: 500px; /* Высота изображений в карточках */
+        object-fit: cover;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-title, .card-text {
+        color: black; /* Цвет текста внутри карточек */
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="/">Фильмы</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/person/">Герои фильмов</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img src="../static/image/1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Хоббит: Нежданное путешествие</h5>
+        <p class="card-text">Хоббит Бильбо Бэггинс пускается в грандиозный поход, целью которого является отвоевание утраченного королевства гномов Эребор у дракона Смауга. Совершенно неожиданно с хоббитом налаживает контакт волшебник Гэндальф Серый. Так Бильбо находит себя и присоединяется к компании тринадцати гномов, возглавляемых легендарным воином Торином Дубощитом. Их путешествие пройдёт через Дикий Край, предательские земли, населенные гоблинами и орками, смертоносными варгами, гигантскими пауками, меняющим шкуры народом и волшебниками.</p>
+        <a href="#" class="btn btn-primary">Смотреть фильм</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../static/image/2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Хоббит: Пустошь Смауга</h5>
+        <p class="card-text">Продолжение путешествия хоббита Бильбо Бэггинса, волшебника Гэндальфа и 13 отважных гномов. Их компания должна добраться до Одинокой горы. А там они встретятся с величайшей опасностью из всех — созданием куда более ужасающим, чем все их прошлые противники, чудовищем, которое проверит на прочность не только их мужество, но крепость их дружбы и правильность выбранного пути, — драконом Смаугом.</p>
+        <a href="#" class="btn btn-primary">Смотреть фильм</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../static/image/3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Хоббит: Битва пяти воинств</h5>
+        <p class="card-text">Когда отряд из тринадцати гномов нанимал хоббита Бильбо Бэгинса в качестве взломщика и четырнадцатого, «счастливого», участника похода к Одинокой горе, Бильбо полагал, что его приключения закончатся, когда он выполнит свою задачу - найдет сокровище, которое так необходимо предводителю гномов Торину. Путешествие в Эребор, захваченное драконом Смаугом королевство гномов, оказалось еще более опасным, чем предполагали гномы и даже Гэндальф - мудрый волшебник, протянувший Торину и его отряду руку помощи.</p>
+        <a href="#" class="btn btn-primary">Смотреть фильм</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
