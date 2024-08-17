@@ -3,11 +3,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def films():
-    return render_template("index.html")
+    context = {
+        "link": "Перейти в кинотеатр"
+    }
+    return render_template("index.html", **context)
 
 @app.route('/person/')
 def person():
-    return render_template("geroi.html")
+    context = {
+        "link": "Перейти в кинотеатр"
+    }
+    return render_template("geroi.html", **context)
 
 if __name__ == '__main__':
     app.run()
