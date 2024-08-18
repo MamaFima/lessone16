@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+  Популярные породы кошек
+
+{% endblock %}
+
+
+
+{% block content %}
+    <div class="container">
+        <h1 class="mt-4">Добро пожаловать на главную страницу клуба любителей кошек!</h1>
+        <p>В нашем приложении вы сможете узнать много нового о разных породах, привычках, кормлении, уходе и лечении. А также о ближайших выставках, на которых вы сможете показать своих любимцев и пообщаться с экспертами. Также вы можете рассказывать о своих питомцах и задавать любые вопросы.</p>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../static/image/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../static/image/pers.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../static/image/6.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </div>
+{% endblock %}
