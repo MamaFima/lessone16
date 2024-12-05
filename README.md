@@ -40,6 +40,6 @@
 
 Для получения дополнительной информации или вопросов обращайтесь через систему [Issues](https://github.com/MamaFima/lessone16/issues) на GitHub.
 
-![Иллюстрация] (https://github.com/MamaFima/lessone16/blob/main/static/image/bilbo.jpg)
+![Иллюстрация] (https://github.com/MamaFima/lessone16/blob/main/static/image/bilbo.jpg?raw=true)
 
 
