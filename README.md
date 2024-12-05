@@ -40,6 +40,6 @@
 
 Для получения дополнительной информации или вопросов обращайтесь через систему [Issues](https://github.com/MamaFima/lessone16/issues) на GitHub.
 
-![3.jpg](statac/image%2F3.jpg)
+![Иллюстрация](statac/image/3.jpg)
 
 
